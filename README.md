@@ -1,0 +1,1 @@
+# thermistor-intermediate-parameters-
