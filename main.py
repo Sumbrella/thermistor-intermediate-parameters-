@@ -37,7 +37,6 @@ def process(args):
     args = parse_args(args)
     check_args(args)
     n = args['n']
-    rt = [args['r{}'.format(i)] for i in range(n)]
     ln_rt = [log(args['r{}'.format(i)]) for i in range(n)]
     t = [args['t{}'.format(i)] for i in range(n)]
     popt, _ = curve_fit(rt_t_function, t, ln_rt)
